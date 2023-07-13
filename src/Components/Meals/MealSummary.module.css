@@ -1,0 +1,12 @@
+.summary {
+  position: relative;
+  background-color: rgb(224, 218, 218);
+  bottom: 15rem;
+  left: 50%;
+  width: 60%;
+  transform: translateX(-50%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}

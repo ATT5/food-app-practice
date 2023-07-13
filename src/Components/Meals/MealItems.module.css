@@ -1,0 +1,30 @@
+.meal-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(5, 5, 5);
+}
+.btn-add {
+  width: 5.5rem;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: rgb(241, 61, 16);
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.btn-add:hover {
+  cursor: pointer;
+}
+.btn-add:active {
+  background-color: rgb(255, 125, 93);
+}
+
+.price {
+  margin: 0.8rem 0;
+  font-weight: 600;
+  color: rgb(241, 136, 16);
+}

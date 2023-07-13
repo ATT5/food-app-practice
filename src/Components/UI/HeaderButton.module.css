@@ -1,0 +1,60 @@
+.Button {
+  background-color: rgb(199, 12, 12);
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 15px;
+  margin-right: 4rem;
+}
+.Button:hover {
+  cursor: pointer;
+}
+.Button:active {
+  background-color: rgb(129, 0, 0);
+}
+.icon :first-child {
+  width: 2rem;
+  height: 2rem;
+}
+.txt {
+  padding: 5px;
+}
+.num-items {
+  color: black;
+  border-radius: 40%;
+  background-color: white;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .txt,
+  .num-items {
+    display: none;
+  }
+  .Button {
+    margin-right: 2rem;
+  }
+}
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
